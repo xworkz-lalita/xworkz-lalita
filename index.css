@@ -1,0 +1,213 @@
+ul{
+    top: 0;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 30%;
+    height: 30%;
+}
+
+li{
+    list-style-type: none;
+}
+li :hover{
+    background-color:white;
+}
+li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color:red;
+    color:black;
+}
+li a :hover{
+    color: burlywood;
+}
+/*
+@media screen and (min-width:568px){
+    body{
+         background-color:blue;
+}*/
+@media screen and (max-width:300px){
+    body{
+         background-color:blue;
+  
+    }
+    ul{
+        width:80%;
+    }
+}
+.marg{
+    margin-top: 200px;
+    font-size: 50px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    background-color:black;
+    padding: 20px;
+    color: pink;
+
+}
+h2{
+    text-align: center;
+}
+h1,h2{
+    color:rebeccapurple;
+}
+h3{
+    color: deeppink;
+    font-style: italic;
+    text-decoration: gold;
+}
+.ben{
+    color: red;
+    text-decoration: underline;
+    font-size: 40px;
+    text-align: center;
+/*  background-color:royalblue;*/
+    text-shadow: salmon;
+    text-transform: capitalize;  
+padding: 20px;     /* it will channge 20px from top right left bottom*/
+}
+.new{
+    /*boxmodel*/
+    font-size: 40px;
+    padding: 50px 100px 30px 100px;
+    border:2px solid red;
+   /* margin: 60px 100px 40px 30px;*/
+margin-top: 40px;
+margin-left: 40px;
+margin-bottom: 40px;
+margin-right: 40px;
+
+}
+
+.banner{
+    color: cyan;
+    font-size: 50px;
+    padding: 30px 20px 10px 40px;
+    padding-right: 20px;
+    border: 2px solid red;
+    margin: 50px 20px 20px 30px;
+}
+.box1{
+    border:solid red;
+    margin:10px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.box2{
+    border:solid seagreen;
+    margin: 20px;
+    width:50px;
+    height: 50px;
+}
+.new :hover{
+    color: rebeccapurple;
+}
+.box3{
+    border: 2px solid red;
+    margin: 10px;
+    width:50px;
+    height: 50px;
+    background-color: greenyellow;
+}
+.box3:hover{
+    background-color: salmon;
+}
+
+.box4{
+    border: 2px solid palevioletred;
+    background-color: yellowgreen;
+    margin: 200px 500px 150px;
+    padding: 50px;
+    width: 100px;
+    height: 50px;
+    display: inline;
+}
+.hyper:link{
+    background-attachment: chartreuse;
+}
+.insta:visited{
+    background-color: blue;
+}
+.insta{
+    text-decoration: none;
+}
+table,tr,th{
+    border: 2Px solid blueviolet;
+}
+tr:nth-child(odd){
+    background-color: darkgreen;
+}
+tr:nth-child(even){
+    background-color: coral;
+}
+tr:nth-child(even):hover{
+    background-color: darkorchid;
+}
+.comb{
+    color: darkturquoise;
+}
+div p{
+    color: fuchsia;
+}
+div>p{
+    color: greenyellow;
+}
+div+p{
+    color: indigo;
+}
+div~p{
+    color: mediumspringgreen;
+}
+.pos{/*position: absolute;*/
+   /* position: static;*/
+    border: 2px solid green;
+    background-color: tomato;
+}
+.one{
+   position: relative;
+  /* position: absolute;*/
+    top:20px;
+    background:cyan;
+}
+.two{/*position: relative; ---how element positioned in the document the child class below the parent class*/
+    /*position: absolute;--to get at the top/*
+    top: 1px;*/
+    position: relative;
+    position:absolute;
+    background-color:blue;
+}
+.special{position: absolute ;
+    background-color:chocolate;
+    top: 20px;
+
+}
+.button{
+    background-color: lightcoral;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+/* how to find relative path*/
+/* search font and text attributes
+differnce between font and text
+css selector;
+element type selector
+assignment: selectors, grouping selectors,element type selector, class selector,inline selector,id selctor,pseudo selector
+background image
+hover-mouse over
+box image
+box outside image
+
+*/
+
+/*body{
+    
+    background-image: url("D:\_20191104_085230.jpg");
+}*/
